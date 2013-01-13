@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div id="header">
-		<h1>Douglas Gardner</h1>
+		<h1><?php include "lipsum2.php"; ?></h1>
 		<ul class="subtitle">
 			<li>Student</li>
 			<li>Developer</li>
@@ -34,28 +34,37 @@
 
 		<div id="projects">
 			<h2>Projects</h2>
-	<!--		<ul id="project-key">
-				<li id="project-lang-css">CSS</li>
-				<li id="project-lang-js">JavaScript</li>
-				<li id="project-lang-perl">Perl</li>
-				<li id="project-lang-java">Java</li>
-			</ul> -->
+			<ul id="project-key">
+				<li id="project-lang-all">Filter:</li>
+				<li id="project-lang-css" class="css">CSS</li>
+				<li id="project-lang-js" class="js">JavaScript</li>
+				<li id="project-lang-perl" class="perl">Perl</li>
+				<li id="project-lang-php" class="php">PHP</li>
+			</ul>
 			<p><?php include "lipsum.php"; ?></p>
 			<div id="project-list">
-				<div class="project">
-					<h3>Project 1</h3>
+				<div class="project css js php">
+					<h3>Web Project 1</h3>
 					<ul class="project-nav">
 						<li><a href="http://github.com/zuzak"><img src="img/source.png" alt="Source code" /></a></li>
 						<li><a href="#"><img src="img/link.png" alt="Link" /></a></li>
 					</ul>
 					<p><?php include "lipsum.php" ?></p>
 				</div>
-				<div class="project">
-					<h3>Project 2</h3>
+				<div class="project perl">
+					<h3>CLI project 1</h3>
 					<p><?php include "lipsum.php" ?></p>
 				</div>
-				<div class="project">
-					<h3>Project 3</h3>
+				<div class="project php">
+					<h3>PHP project</h3>
+					<p><?php include "lipsum.php" ?></p>
+				</div>
+				<div class="project perl">
+					<h3>Project 4</h3>
+					<p><?php include "lipsum.php" ?></p>
+				</div>
+				<div class="project php">
+					<h3>Project 5</h3>
 					<p><?php include "lipsum.php" ?></p>
 				</div>
 			</div>
