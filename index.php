@@ -36,36 +36,19 @@
 			<h2>Projects</h2>
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
-				<li id="project-lang-css" class="css">CSS</li>
-				<li id="project-lang-js" class="js">JavaScript</li>
-				<li id="project-lang-perl" class="perl">Perl</li>
-				<li id="project-lang-php" class="php">PHP</li>
+				<li id="project-lang-bash" class="bash">Bash</li>
+				<li id="project-lang-python" class="python">Python</li>
 			</ul>
 			<p><?php include "lipsum.php"; ?></p>
 			<div id="project-list">
-				<div class="project css js php">
-					<h3>Web Project 1</h3>
+				<div class="project python bash">
+					<h3>Zorkbot</h3>
 					<ul class="project-nav">
-						<li><a href="http://github.com/zuzak"><img src="img/source.png" alt="Source code" /></a></li>
-						<li><a href="#"><img src="img/link.png" alt="Link" /></a></li>
+						<li><a href="http://github.com/zuzak/zorkbot"><img src="img/source.png" alt="Source code" /></a></li>
 					</ul>
-					<p><?php include "lipsum.php" ?></p>
-				</div>
-				<div class="project perl">
-					<h3>CLI project 1</h3>
-					<p><?php include "lipsum.php" ?></p>
-				</div>
-				<div class="project php">
-					<h3>PHP project</h3>
-					<p><?php include "lipsum.php" ?></p>
-				</div>
-				<div class="project perl">
-					<h3>Project 4</h3>
-					<p><?php include "lipsum.php" ?></p>
-				</div>
-				<div class="project php">
-					<h3>Project 5</h3>
-					<p><?php include "lipsum.php" ?></p>
+					<p>Started as a small project to learn a new language, <strong>zorkbot</strong> is a fairly basic <abbr title="Internet Relay Chat">IRC</abbr> bot.
+					<br><br>Coded in abominable Python, I used zorkbot to understand how programming worked in a 'proper' programming language, having previously worked solely in PHP and .NET during secondary school.
+					<br><br>This was also an excuse to get to know my way around the basic <abbr title="Bourne Again SHell">Bash</abbr> prompt (as well as GNU Screen), with my first Bash script being used to launch zorkbot.</p>
 				</div>
 			</div>
 		</div>
