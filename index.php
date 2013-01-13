@@ -27,22 +27,20 @@
 	<div id="header">
 		<h1>Douglas Gardner</h1>
 		<ul class="subtitle">
-			<li>Student</li>
-			<li>Developer</li>
-			<li>Volunteer</li>
-			<li>Journalist</li>
-			<li>Gamer</li>
-			<li>Tea drinker</li>
-			<li>Reader</li>
+			<li><a href="#student">Student</a></li>
+			<li><a href="#developer">Developer</a></li>
+			<li><a href="#journalist">Journalist</a></li>
+			<li><a href="#gamer">Gamer</a></li>
 		</ul>
 	</div>
 	<div id="main">
-		<div id="introduction">
+		<section id="introduction">
 			<p class="large">I'm <strong>Douglas Gardner</strong>, a student reading Computer Science at Aberystwyth University.</p>
-		</div>
+		</section>
 
-		<div class="box">
-			<h2>Projects</h2>
+		<section class="box" id="developer">
+			<h2>Programming</h2>
+			<p>In my spare time, I occasionally contribute to <i><a href="https://en.wikinews.org/">Wikinews</a></i>, the news-driven sister project to Wikipedia, as well as creating a few small open-source projects. </p>
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
 				<li id="project-lang-bash" class="bash">Bash</li>
@@ -50,7 +48,6 @@
 				<li id="project-lang-php" class="php">PHP</li>
 				<li id="project-lang-python" class="python">Python</li>
 			</ul>
-			<p>In my spare time, I occasionally contribute to <i><a href="https://en.wikinews.org/">Wikinews</a></i>, the news-driven sister project to Wikipedia, as well as creating a few small open-source projects. </p>
 			<div id="project-list">
 				<div class="project python bash">
 					<h3>Zorkbot</h3>
@@ -67,10 +64,19 @@
 						<li><a href="https://github.com/zuzak/backlog"><img src="img/source.png" alt="Source code" /></a></li>
 						<li><a href="http://users.aber.ac.uk/dog2/games"><img src="img/link.png" alt="Link" /></a></li>
 					</ul>
-					<p>A significant proportion of users of the digital game distribution service <a href="http://steamcommunity.com">Steam</a> buy more games than they can play. The <strong>backlog</strong> tool parses Steam's <a href="http://steamcommunit.com/api">API</a> into an easy to read list of unplayed games.
+					<p>A significant proportion of users of the digital game distribution service <a href="http://steamcommunity.com">Steam</a> buy more games than they can play. The <strong>backlog</strong> tool parses Steam's <a href="http://steamcommunity.com/api">API</a> into an easy to read list of unplayed games.
 					<br><br>Creating the tool got me used to the idea of how <abbr title="Application Programming Interface">API</abbr>s work, as well as an insight into the use of <abbr title="Extensible Markup Language">XML</abbr>.
 				</div>
 			</div>
-		</div>
+		</section>
+		<section class="box" id="journalist">
+			<h2>Writing</h2>
+			<p>Since 2010, I have occasionally edited <i><a href="https://en.wikinews.org/">Wikinews</a></i>, the news-driven sister project to Wikipedia, with around <a href="http://en.wikinews.org/wiki/Category:Douglas_Gardner_%28Wikinewsie%29">forty articles</a> to my name, some of which involved original reporting.</p>
+			<p>In February 2011, the community entrusted me with an administrator position, which I held until I relinquished it due to inactivity a year later.
+		</section>
+		<section class="box" id="gamer">
+			<h2>Gaming</h2>
+			<p>In 2012, I played a major part in the organisation of a worldwide eSports event for the <a href="http://valvesoftware.com">Valve Software</a> title <i><a href="http://teamfortress.com">Team Fortress 2</a></i>. As part of this, I was granted the ability by Valve to administer prizes (in the form of <a href="http://wiki.teamfortress.com/wiki/Ready_Steady_Pan_Participant">in-game medals</a>) to the seventy teams that participated.
+		</section>
 	</div>
 </body>
