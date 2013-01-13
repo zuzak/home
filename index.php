@@ -25,7 +25,7 @@
 </head>
 <body>
 	<div id="header">
-		<h1><?php include "lipsum2.php"; ?></h1>
+		<h1>Douglas Gardner</h1>
 		<ul class="subtitle">
 			<li>Student</li>
 			<li>Developer</li>
@@ -34,10 +34,6 @@
 			<li>Gamer</li>
 			<li>Tea drinker</li>
 			<li>Reader</li>
-			<li>Lorem</li>
-			<li>Ipsum</li>
-			<li>Dolor sit</li>
-			<li>Amet</li>
 		</ul>
 	</div>
 	<div id="main">
