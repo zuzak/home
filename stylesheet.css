@@ -30,7 +30,19 @@ h1 {
 	display:inline;
 	margin-left:20px;
 }
-
+ul.project-nav li{
+	list-style-type:none;
+}
+ul.project-nav {
+	float:right;
+	margin:0;
+	padding:2px;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom-left-radius: 5px;
+	text-align:right;
+}
 #main {
 	margin-left:auto;
 	margin-right:auto;
@@ -43,14 +55,10 @@ h1 {
 	padding-left:50px;
 	font-size:110%;
 }
-#projectlist {
-	margin-left:10px;
-	margin-right:10px;
-}
 #projects {
 	border: 1px solid #ddd;
 	border-radius:5px;
-	padding:20px;
+	padding:10px;
 }
 h2 {
 	text-align:center;
@@ -58,11 +66,26 @@ h2 {
 }
 .project {
 	font-size:80%;
-	width:230px;
-	height:300px;
 	overflow:hidden;
-	display:inline-block;
 	border:1px solid #ddd;
 	border-radius:5px;
 	padding:5px;
+	width:250px;
+	margin:2px;
+	display:inline-block;
+}
+a.source {
+	display:block;
+	float:right;
+}
+ul#project-key {
+	float:right;
+	display:block;
+}
+ul#project-key li {
+	list-style-type:none;
+	border:1px solid #ddd;
+	font-size:60%;
+	margin:2px;
+	padding:2px;
 }
