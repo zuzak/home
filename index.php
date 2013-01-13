@@ -41,7 +41,7 @@
 			<p class="large">I'm <strong>Douglas Gardner</strong>, a student reading Computer Science at Aberystwyth University.</p>
 		</div>
 
-		<div id="projects">
+		<div class="box">
 			<h2>Projects</h2>
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
