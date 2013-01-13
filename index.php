@@ -39,8 +39,8 @@
 		</section>
 
 		<section class="box" id="developer">
-			<h2>Programming</h2>
-			<p>In my spare time, I occasionally contribute to <i><a href="https://en.wikinews.org/">Wikinews</a></i>, the news-driven sister project to Wikipedia, as well as creating a few small open-source projects. </p>
+			<h2>Computing</h2>
+			<p>In the last year, I have created a few small open source projects in an attempt to enrich my understanding of programming. The more successful ones are listed below:</p>
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
 				<li id="project-lang-bash" class="bash">Bash</li>
