@@ -48,8 +48,8 @@
 				foreach ($repos as $repo) {
 					array_push($langs,$repo->language);
 				}
-				$langs = array_unique($langs);
-				?> Github repositories (in <?php echo count($langs) ?> languages) to my name.
+				$langs = array_filter(array_unique($langs));
+				?> Github repositories (in <?php echo count($langs); ?> languages) to my name.
 				The more successful projects are listed below:</p>
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
