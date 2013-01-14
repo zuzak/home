@@ -40,7 +40,17 @@
 
 		<section class="box" id="developer">
 			<h2>Computing</h2>
-			<p>In the last year, I have created a few small open source projects in an attempt to enrich my understanding of programming. The more successful ones are listed below:</p>
+			<p>In the last year, I have created a few small open source projects in an attempt to enrich my understanding of programming, with <?php
+				$json = file_get_contents("https://api.github.com/users/zuzak/repos");
+				$repos = json_decode($json);
+				echo count($repos);
+				$langs = array();
+				foreach ($repos as $repo) {
+					array_push($langs,$repo->language);
+				}
+				$langs = array_unique($langs);
+				?> Github repositories (in <?php echo count($langs) ?> languages) to my name.
+				The more successful projects are listed below:</p>
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
 				<li id="project-lang-bash" class="bash">Bash</li>
