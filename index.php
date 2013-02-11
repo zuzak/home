@@ -86,14 +86,14 @@
     			</div>
                 <div class="project">
                     <h3>PGP key</h3>
-                    My PGP public key is publicly accessible on many keyservers. A copy can be found <a href="http://chippy.ch/key.txt">here</a>.
+                    My PGP public key is publicly accessible on many keyservers. A copy can be found <a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x83D79CE73F41F985">here</a>.
                 </div>
                 <div class="project">
                     <h3>OAOSIDL</h3>
                     <ul class="project-nav">
                         <li><a href="http://oaosidl.org"><img src="img/link.png" alt="Link" /></a>
                     </ul>
-                    I contribute to multiple home-grown open-source projects at Aberystwyth, via the OAOSIDL community.
+                    I contribute to multiple home-grown open-source projects at Aberystwyth, via the <abbr title="'Official' Aberystwyth Open Source International Development League">OAOSIDL</abbr> community.
             </div>
 		</section>
 		<section class="box" id="journalist">
