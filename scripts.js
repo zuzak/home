@@ -34,9 +34,9 @@ $(document).ready(function() {
 	$('#project-lang-php').mouseout(function(){projectchange('php','transparent');});
 	$('#project-lang-php').click(function(){filter('php')});
 	
-	$('.jquery').mouseover(function(){keychange('jquery','#FFFFCC');});
-	$('.jquery').mouseout (function(){keychange('jquery','transparent');});
-	$('#project-lang-jquery').mouseover(function(){projectchange('jquery','#FFFFCC');});
-	$('#project-lang-jquery').mouseout(function(){projectchange('jquery','transparent');});
-	$('#project-lang-jquery').click(function(){filter('jquery')});
+	$('.js').mouseover(function(){keychange('js','#FFFFCC');});
+	$('.js').mouseout (function(){keychange('js','transparent');});
+	$('#project-lang-js').mouseover(function(){projectchange('js','#FFFFCC');});
+	$('#project-lang-js').mouseout(function(){projectchange('js','transparent');});
+	$('#project-lang-js').click(function(){filter('js')});
 });

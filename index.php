@@ -54,7 +54,7 @@
 			<ul id="project-key">
 				<li id="project-lang-all">Filter:</li>
 				<li id="project-lang-bash" class="bash">Bash</li>
-				<li id="project-lang-jquery" class="jquery">JQuery</li>
+				<li id="project-lang-js" class="js">JavaScript</li>
 				<li id="project-lang-php" class="php">PHP</li>
 				<li id="project-lang-python" class="python">Python</li>
 			</ul>
@@ -68,7 +68,7 @@
 					<br><br>Coded in abominable Python, I used zorkbot to understand how programming worked in a 'proper' programming language, having previously worked solely in PHP and <a href="http://msdn.microsoft.com/en-us/vstudio/hh388573">lesser</a> languages during secondary school.
 					<br><br>This was also an excuse to get to know my way around the basic <abbr title="Bourne Again SHell">Bash</abbr> prompt (as well as GNU Screen), with my first Bash script being used to launch zorkbot.</p>
 				</div>
-				<div class="project php jquery">
+				<div class="project php js">
 					<h3>Steam Backlog</h3>
 					<ul class="project-nav">
 						<li><a href="https://github.com/zuzak/backlog"><img src="img/source.png" alt="Source code" /></a></li>
@@ -77,7 +77,18 @@
 					<p>A significant proportion of users of the digital game distribution service <a href="http://steamcommunity.com">Steam</a> buy more games than they can play. The <strong>backlog</strong> tool parses Steam's <a href="http://steamcommunity.com/api">API</a> into an easy to read list of unplayed games.
 					<br><br>Creating the tool got me used to the idea of how <abbr title="Application Programming Interface">API</abbr>s work, as well as an insight into the use of <abbr title="Extensible Markup Language">XML</abbr>.
 				</div>
-			</div>
+                <div class="project js">
+                    <ul class="project-nav">
+                        <li><a href="http://github.com/reality/depressionbot"><img src="img/source.png" alt="Source code"></a></li>
+                    </ul>
+                    <h3>Depressionbot</h3>
+                    <p>I collaborated on a couple of modules for the <a href="http://nodejs.org">node.js</a> IRC bot known as depressionbot. Thanks to me, it is possible to interact with the Github API, among other things, via Aber's unofficial IRC channels.</p>
+    			</div>
+                <div class="project">
+                    <h3>PGP key</h3>
+                    My PGP public key is publicly accessible on many keyservers. A copy can be found <a href="http://chippy.ch/key.txt">here</a>.
+                </div>
+            </div>
 		</section>
 		<section class="box" id="journalist">
 			<h2>Writing</h2>
