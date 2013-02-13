@@ -78,15 +78,18 @@
 					<br><br>Creating the tool got me used to the idea of how <abbr title="Application Programming Interface">API</abbr>s work, as well as an insight into the use of <abbr title="Extensible Markup Language">XML</abbr>.
 				</div>
                 <div class="project js">
+                    <h3>Depressionbot</h3>
                     <ul class="project-nav">
                         <li><a href="http://github.com/reality/depressionbot"><img src="img/source.png" alt="Source code"></a></li>
                     </ul>
-                    <h3>Depressionbot</h3>
                     <p>I collaborated on a couple of modules for the <a href="http://nodejs.org">node.js</a> IRC bot known as depressionbot. Thanks to me, it is possible to interact with the Github API, among other things, via Aber's unofficial IRC channels.</p>
     			</div>
                 <div class="project">
                     <h3>PGP key</h3>
-                    My PGP public key is publicly accessible on many keyservers. A copy can be found <a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x83D79CE73F41F985">here</a>.
+                    <ul class="project-nav">
+                        <li><a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x83D79CE73F41F985"><img src="img/key.png" alt="Key" /></a></li>
+                    </ul>
+                    My PGP public key is publicly accessible on many keyservers. A copy can be found <a href="">here</a>.
                 </div>
                 <div class="project">
                     <h3>OAOSIDL</h3>
@@ -94,6 +97,14 @@
                         <li><a href="http://oaosidl.org"><img src="img/link.png" alt="Link" /></a>
                     </ul>
                     I contribute to multiple home-grown open-source projects at Aberystwyth, via the <abbr title="'Official' Aberystwyth Open Source International Development League">OAOSIDL</abbr> community.
+                </div>
+                <div class="project">
+                    <h3>Fosdem 2013</h3>
+                    <ul class="project-nav">
+                        <li><a href="https://fosdem.org/2013"><img src="img/link.png" alt="Link" /></a></li>
+                    </ul>
+                    In February 2013, I attended Fosdem 2013 in Brussels, where I solidified several passing interests&ndash;such as localisation and copyleft&ndash;into more steady contributions. I am hoping to contribute more to some of the projects I (re)discovered at the conference.
+                </div>
             </div>
 		</section>
 		<section class="box" id="journalist">
