@@ -89,7 +89,7 @@
                     <ul class="project-nav">
                         <li><a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x83D79CE73F41F985"><img src="img/key.png" alt="Key" /></a></li>
                     </ul>
-                    My PGP public key is publicly accessible on many keyservers. A copy can be found <a href="">here</a>.
+                    My PGP public key is publicly accessible on many keyservers.
                 </div>
                 <div class="project">
                     <h3>OAOSIDL</h3>
